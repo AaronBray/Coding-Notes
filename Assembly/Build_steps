@@ -1,0 +1,14 @@
+STEPS:
+Create File (test1.s)
+assemble -> as -o abc.o abc.s    or  nasm -f elf64 -o test2.o test1.s
+link exe -> ld -o exe test2.o
+run exe -> ./exe
+
+________________________________________
+prepend directive:
+.intel_syntax noprefix    or section.text
+.global _start
+_start:
+
+
+
