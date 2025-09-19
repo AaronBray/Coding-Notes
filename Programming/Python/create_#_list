@@ -1,5 +1,5 @@
 
-1. Printing numbers from 1 to 101:
+1. Printing numbers from 0 to 101:
 for i in range(102):  # The range function goes up to, but not including, the stop value.
     print(i)
 
