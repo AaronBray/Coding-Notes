@@ -1,0 +1,17 @@
+#include <stdio.h>
+
+int main() {
+    printf("Hello World!\n");
+    return 0;
+}
+
+
+
+//GCC
+    gcc main.c -o myprogram
+
+
+
+RUN
+
+./myprogram
