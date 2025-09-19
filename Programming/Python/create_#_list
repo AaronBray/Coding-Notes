@@ -1,0 +1,37 @@
+
+1. Printing numbers from 1 to 101:
+for i in range(102):  # The range function goes up to, but not including, the stop value.
+    print(i)
+
+
+2. Printing numbers from 1 to 101:
+for i in range(1, 102):  # The range function goes up to, but not including, the stop value.
+    print(i)
+
+3. Creating a list of numbers from 1 to 101:
+numbers = []
+for i in range(1, 102):
+    numbers.append(i)
+print(numbers)
+
+    
+4. Using a list comprehension to create a list of numbers from 1 to 101 (more concise):
+numbers = [i for i in range(1, 102)]
+print(numbers)
+
+
+
+
+Then run:
+python3 101_numbers.py > 101.txt
+
+cat 102.txt
+
+
+_______________________
+NOTES:
+-range(1, 102) generates a sequence of numbers starting from 1 and ending at 101.
+-The for loop iterates through each number in this sequence. 
+-print(i) displays each number.
+-numbers.append(i) adds each number to the numbers list.
+-List comprehension [i for i in range(1, 102)] provides a compact way to build a list.
