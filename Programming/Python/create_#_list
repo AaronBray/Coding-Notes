@@ -23,7 +23,7 @@ print(numbers)
 
 
 Then run:
-python3 101_numbers.py > 101.txt
+python3 102_numbers.py > 101.txt
 
 cat 102.txt
 
