@@ -1,0 +1,20 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main()
+{
+int DegreesEntered = 0;
+double Farenheit = 0.0;
+double Celcius = 0.0;
+
+//ask F input
+printf("Enter the degrees in Farenheit: ");
+//scan input
+scanf("%d", &DegreesEntered);
+//calculation
+Celcius = (DegreesEntered - 32) * .556;
+//print output
+printf("The degress in Celcius is: %f", Celcius);
+
+return 0;
+}
