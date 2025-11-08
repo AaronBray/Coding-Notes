@@ -1,0 +1,11 @@
+#include <stdio.h>
+
+int main()
+{
+   int count;
+   printf("Numbered List 1-10:\n");
+   for (count=1;count<=10;count++)
+   {
+     printf("%d\n",count);
+   }
+}
